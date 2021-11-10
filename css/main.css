@@ -1,0 +1,74 @@
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5px;
+}
+
+.toTheSide {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  width: 100%;
+}
+
+#galleryPic {
+  width: 50%;
+  height: auto;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 2%;
+}
+
+#capTxt {
+  width: 200px;
+  font-size: 13px;
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 15px;
+}
+
+#prebut {
+  color: blue;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #2196f3;
+  border-radius: 10%;
+}
+
+#nextbut {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border: 2px solid #0b7dda;
+  border-radius: 10%;
+}
+
+.dp {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  padding-right: 10px;
+}
+
+#comTxtBox {
+  padding: 10px;
+  width: 30%;
+  height: 21px;
+  border: solid 1px black;
+  border-right: none;
+}
+
+#combutt {
+  margin-left: -4px;
+  height: 43px;
+  width: 10%;
+  color: white;
+  background-color: blue;
+  border: solid 1px blue;
+  border-left: none;
+  border-bottom-right-radius: 7%;
+  border-top-right-radius: 7%;
+}
+
+p {
+  margin: 0;
+}

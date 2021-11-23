@@ -2,7 +2,7 @@ posts = [
     {
         image: 'Image/IMG_0085.JPG',
         caption: 'This is a pink flower.',
-        Infomation: 'I took this picture with a friends camera, I really love how the camera focuses on the details of the flower.',
+        Infomation: 'I really love how the camera focuses on the details of the flower.',
         comments: []
     },
     {

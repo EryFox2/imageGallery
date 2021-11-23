@@ -12,11 +12,51 @@ body {
 }
 
 #galleryPic {
+  width: 100%;
+  height: auto;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 2%;
+}
+
+#f1_container {
   width: 50%;
   height: auto;
   padding-right: 50px;
   padding-bottom: 50px;
   border-radius: 2%;
+  z-index: 1;
+  width: 450px;
+  height: 281px;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 2s linear;
+  transition-delay: 1s;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
 }
 
 #capTxt {

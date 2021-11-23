@@ -2,16 +2,19 @@ posts = [
     {
         image: 'Image/IMG_0085.JPG',
         caption: 'This is a pink flower.',
+        Infomation: 'I took this picture with a friends camera, I really love how the camera focuses on the details of the flower.',
         comments: []
     },
     {
         image: 'Image/IMG_0140.JPG',
         caption: 'This is a feet in the grass.',
+        Infomation: 'This idea was suggested by a firend, I really loved how it turned out.',
         comments: []
     },
     {
         image: 'Image/IMG_0108.JPG',
-        caption: 'This is a potato.',
+        caption: 'This is a wall.',
+        Infomation: 'I love abstruct art, It gives the eyes something unconventional to take in.',
         comments: []
     }
 ]
@@ -25,6 +28,7 @@ const nextbut = document.getElementById('nextbut')
 const prevbut = document.getElementById('prebut')
 const imageElement = document.getElementById('galleryPic')
 const captionElemet = document.getElementById('captxt')
+const infoElement = document.getElementById('moreInfo')
 const commentButton = document.getElementById('combutt')
 const commentInput = document.getElementById('comTxtBox')
 
@@ -53,6 +57,7 @@ function goToPrev(){
 function readData(){
     imageElement.src = posts[counter].image
     captionElemet.innerHTML = posts[counter].caption
+    infoElement.innerHTML = posts[counter].Infomation
     const commentsStack = posts[counter].comments
 
    const commentP = document.getElementById('commentParent')
